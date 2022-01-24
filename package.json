@@ -1,0 +1,23 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio de proyectos web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch assets/scss/style.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otiliojr14/portafolio.git"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "Otilio R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otiliojr14/portafolio/issues"
+  },
+  "homepage": "https://github.com/Otiliojr14/portafolio#readme"
+}

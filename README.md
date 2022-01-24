@@ -1,2 +1,3 @@
 # portafolio
-Repositorio de mi portafolio Frontend
+
+Repositorio de mi portafolio de proyectos web

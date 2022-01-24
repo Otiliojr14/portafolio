@@ -1,0 +1,23 @@
+.u-white {
+  color: var(--color-white);
+}
+.u-black {
+  color: var(--color-black);
+}
+.u-container {
+  width: 90%;
+  max-width: 115rem;
+  margin: 0 auto;
+}
+
+.u-margin-bottom {
+  &-small {
+    margin-bottom: 1.5rem;
+  }
+  &-medium {
+    margin-bottom: 4rem;
+  }
+  &-big {
+    margin-bottom: 8rem;
+  }
+}

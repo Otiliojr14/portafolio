@@ -1,0 +1,125 @@
+.tecnology {
+  text-align: center;
+
+  &__subtitle {
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  }
+
+  &__item {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    height: 45rem;
+    border: 0.4rem solid var(--color-white);
+    position: relative;
+
+    h2 {
+      margin-top: 5rem;
+      color: var(--color-white);
+      text-transform: none;
+    }
+
+    &-side {
+      transition: all 0.8s ease;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      backface-visibility: hidden;
+      display: grid;
+      align-items: center;
+      &--front {
+        background-color: var(--color-primary);
+        transform: rotateY(0deg);
+      }
+
+      &--back {
+        transform: rotateY(180deg);
+
+        &-html {
+          background-image: linear-gradient(
+            to bottom right,
+            hsl(26, 100%, 57%),
+            hsl(12, 100%, 57%)
+          );
+        }
+
+        &-css {
+          background-image: linear-gradient(
+            to bottom right,
+            hsl(197, 78%, 52%),
+            hsl(228, 78%, 52%)
+          );
+        }
+
+        &-js {
+          background-image: linear-gradient(
+            to bottom right,
+            hsl(41, 96%, 58%),
+            hsl(21, 96%, 58%)
+          );
+        }
+
+        &-php {
+          background-image: linear-gradient(
+            to bottom right,
+            hsl(236, 28%, 58%),
+            hsl(234, 47%, 32%)
+          );
+        }
+
+        &-mysql {
+          background-image: linear-gradient(
+            to bottom right,
+            hsl(186, 89%, 39%),
+            hsl(212, 100%, 28%)
+          );
+        }
+
+        &-git {
+          background-image: linear-gradient(
+            to bottom right,
+            hsl(8, 71%, 54%),
+            hsl(0, 100%, 50%)
+          );
+        }
+      }
+    }
+
+    &:hover &-side--front {
+      transform: rotateY(-180deg);
+    }
+
+    &:hover &-side--back {
+      transform: rotateY(0);
+    }
+  }
+
+  &__svg {
+    fill: var(--color-white);
+    border-bottom: 5rem;
+  }
+
+  &__list {
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+
+    &-item {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 1rem;
+      color: var(--color-white);
+
+      &:not(:last-child) {
+        border-bottom: 1px solid var(--color-white);
+      }
+    }
+  }
+}

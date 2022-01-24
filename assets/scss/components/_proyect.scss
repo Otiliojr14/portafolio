@@ -1,0 +1,54 @@
+.proyect {
+  position: relative;
+  display: grid;
+  overflow: hidden;
+  &__img-box {
+    width: 100%;
+    height: 45rem;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    filter: brightness(0.8) blur(0);
+    transition: filter 0.3s;
+
+    &--natours,
+    &--gdlwebcamp,
+    &--damrios,
+    &--clinica {
+      object-position: center;
+    }
+  }
+
+  &__description {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(10rem);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+
+    a {
+      margin: 3rem 0;
+    }
+  }
+
+  &:hover &__description {
+    opacity: 1;
+    transform: translateY(0rem);
+    visibility: visible;
+  }
+
+  &:hover &__img {
+    filter: brightness(0.3) blur(2px);
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="214px" height="214px" viewBox="0 0 214 214" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="speedometer-svgrepo-com">
+    <g id="XMLID_501_">
+      <path d="M60.1875 26.75L107 107L153.813 26.75L60.1875 26.75Z" id="XMLID_502_" fill="#FF9811" fill-rule="evenodd" stroke="none" />
+      <path d="M107 107L0 107L60.1875 26.75L107 107Z" id="XMLID_503_" fill="#FFDA44" fill-rule="evenodd" stroke="none" />
+      <path d="M107 107L214 107L153.812 26.75L107 107Z" id="XMLID_504_" fill="#FF5023" fill-rule="evenodd" stroke="none" />
+      <g id="XMLID_505_">
+        <path d="M107 0L107 26.75C151.32 26.75 187.25 62.6793 187.25 107C187.25 151.321 151.32 187.25 107 187.25L107 214C166.094 214 214 166.095 214 107C214 47.9052 166.094 0 107 0L107 0Z" id="XMLID_506_" fill="#006DF0" fill-rule="evenodd" stroke="none" />
+        <path d="M26.75 107C26.75 62.6793 62.6799 26.75 107 26.75L107 0C47.9059 0 0 47.9052 0 107C0 166.095 47.9059 214 107 214L107 187.25C62.6799 187.25 26.75 151.321 26.75 107L26.75 107Z" id="XMLID_507_" fill="#0052B4" fill-rule="evenodd" stroke="none" />
+      </g>
+      <path d="M53.5 107C53.5 77.4528 77.4528 53.5 107 53.5C136.547 53.5 160.5 77.4528 160.5 107C160.5 136.547 136.547 160.5 107 160.5C77.4528 160.5 53.5 136.547 53.5 107Z" id="XMLID_508_" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M97.1058 89.5483C106.747 84.088 165.183 74.0447 165.183 74.0447C165.183 74.0447 126.522 119.001 116.881 124.461C107.241 129.922 94.9973 126.534 89.5369 116.893C84.0766 107.251 87.4638 95.0093 97.1058 89.5483L97.1058 89.5483Z" id="XMLID_3_" fill="#006DF0" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
